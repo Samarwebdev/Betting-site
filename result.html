@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bet Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Bet Result</h1>
+        <p>{{ message }}</p>
+        <p>Your current balance: {{ balance }} ₹</p>
+        <a href="/">Go back to homepage</a>
+    </div>
+</body>
+</html>
